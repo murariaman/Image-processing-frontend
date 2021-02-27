@@ -1,0 +1,138 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+  
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+  
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+  
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.drawDiv{
+    /* width: 665px; */
+    width: 865px;
+    height: 900px;
+    overflow: hidden;
+    overflow-y: hidden;
+    position: relative;
+    /* 10 */
+}
+  
+.drawDiv iframe{
+    position: absolute;
+    top: -272px;
+    left: -159px;
+    width: 1280px;
+    height: 1200px;
+}
+
+.hideback{
+    width: 100px;
+    top: 53px;
+    left: 98px;
+    height: 16px;
+    background-color: #EEEEEE;
+    position: absolute;
+}
+
+.hiidenDiv{
+    width: 865px;
+    top: 460px;
+    height: 200px;
+    background-color: #FCFCFC;
+    position: absolute;
+}
+
+.hiidenDiv p {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 22px;
+    color: #403940;
+    text-align: center;
+}
+
+.laptopImage{
+    position: relative;
+    left: 40%;
+    padding-bottom: 8px;
+    margin-top: 22px;
+}
+
+.outputImage{
+    max-width: 870px;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.outputImage h3{
+    margin-left: 25%;
+}
+
+.ant-upload-select-picture-card i {
+    color: #999;
+    font-size: 32px;
+}
+  
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+}
+
+.scaleArea {
+   margin-top: 25px; 
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
+.initilizeBtn {
+    margin-left: 40%;
+}
+
+.doubleInintBtn { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+}
+
+.previewBackgroundImage {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 15%;
+}
+
+.black_And_White_Preview_Image {
+    width: 600px;
+    height: 600px;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.shapeDiv {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shapeRectBtn {
+    margin-right: 15px;
+}

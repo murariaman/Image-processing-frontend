@@ -1,0 +1,29 @@
+.featureHeading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #111d66;
+    font-family: 'Helvetica Neue';
+}
+
+.featureImage {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featuresDescriptionFirst {
+    position: relative;
+    top: -20px;
+    margin-left: 80px;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 15px;
+}
+
+.featuresDescription {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 15px;
+}
